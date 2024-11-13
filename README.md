@@ -1,6 +1,22 @@
 # GymTime Citrino
 
-## Objetivo do MVP
+![Versão](https://img.shields.io/badge/versão-MVP-blue) 
+![Versão](https://img.shields.io/badge/versão-1.0.0-blue) 
+![Última Atualização](https://img.shields.io/github/last-commit/DiegoMaiaSantos/gymtime-citrino-app) 
+![Licença](https://img.shields.io/github/license/DiegoMaiaSantos/gymtime-citrino-app) 
+![GitHub Stars](https://img.shields.io/github/stars/DiegoMaiaSantos/gymtime-citrino-app?style=social)
+
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white&color=239120)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white&color=512BD4)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=flat&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=flat&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
+#
+
+## Objetivo do MVP ![Versão](https://img.shields.io/badge/versão-MVP-blue)
 Permitir que os moradores possam reservar horários na academia do condomínio, visualizando a disponibilidade diretamente pela web ou pelo celular.
 
 ## Funcionalidades para o MVP
@@ -29,7 +45,7 @@ Permitir que os moradores possam reservar horários na academia do condomínio, 
 - **Responsive Design com Bootstrap** - Garantir boa experiência em dispositivos móveis.
 - **Progressive Web App (PWA)** - Uma possível evolução para permitir que o site seja salvo como app no celular e usado offline.
 
-## Funcionalidades para a Versão 1.0.0
+## Funcionalidades para a Versão 1.0.0 ![Versão](https://img.shields.io/badge/versão-1.0.0-blue)
 
 - **Notificações**: Enviar e-mails de confirmação e lembretes para os moradores sobre os horários agendados.
 - **Cancelamento de Agendamentos**: Permitir que os moradores cancelem horários com antecedência.
