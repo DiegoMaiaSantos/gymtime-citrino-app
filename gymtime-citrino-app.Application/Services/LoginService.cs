@@ -1,6 +1,8 @@
-﻿namespace gymtime_citrino_app.Services
+﻿using gymtime_citrino_app.Interfaces.Services;
+
+namespace gymtime_citrino_app.Services
 {
-    public class LoginService
+    public class LoginService : ILoginService
     {
     }
 }
