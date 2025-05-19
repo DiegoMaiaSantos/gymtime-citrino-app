@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\gymtime-citrino-app.Application\gymtime-citrino-app.Application.csproj" />
     <ProjectReference Include="..\gymtime-citrino-app.Domain\gymtime-citrino-app.Domain.csproj" />
   </ItemGroup>
 

@@ -11,4 +11,8 @@
     <Folder Include="DTOs\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\gymtime-citrino-app.Domain\gymtime-citrino-app.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
