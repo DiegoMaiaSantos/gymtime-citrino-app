@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\gymtime-citrino-app.Application\gymtime-citrino-app.Application.csproj" />
     <ProjectReference Include="..\gymtime-citrino-app.Domain\gymtime-citrino-app.Domain.csproj" />
+    <ProjectReference Include="..\gymtime-citrino-app.Infrastructure\gymtime-citrino-app.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

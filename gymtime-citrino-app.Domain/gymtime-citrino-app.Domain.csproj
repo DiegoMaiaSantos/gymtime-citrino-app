@@ -8,12 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Enums\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\gymtime-citrino-app.Infrastructure\gymtime-citrino-app.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
