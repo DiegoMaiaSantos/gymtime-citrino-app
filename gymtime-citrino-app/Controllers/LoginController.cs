@@ -1,32 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using gymtime_citrino_app.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace gymtime_citrino_app.Controllers
 {
     public class LoginController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Login(string Email, string Password, bool RememberMe)
+        public IActionResult Login(UserModel model)
         {
-            if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
-            {
-                ModelState.AddModelError("", "E-mail ou senha inválidos.");
-                return View();
-            }
-
-            if (Email == "admin" && Password == "password")
-            {
-                if (RememberMe)
-                {
-                }
-                return RedirectToAction("Index", "Home");
-            }
-
-            ModelState.AddModelError("", "E-mail ou senha inválidos.");
             return View();
         }
 
@@ -34,6 +20,12 @@ namespace gymtime_citrino_app.Controllers
         public IActionResult Register()
         {
             return View(); 
+        }
+
+        [HttpPost]
+        public IActionResult Register(UserModel model)
+        {
+            return View();
         }
     }
 }
