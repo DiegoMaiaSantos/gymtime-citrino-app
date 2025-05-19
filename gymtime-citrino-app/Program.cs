@@ -1,7 +1,12 @@
+using gymtime_citrino_app.Infrastructure.Ioc;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.RegisterConnectionServices(builder.Configuration);
+builder.Services.RegisterDependencies();
 
 var app = builder.Build();
 
